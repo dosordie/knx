@@ -1,7 +1,7 @@
 {
   "name": "knx",
   "description": "KNXnet/IP protocol implementation for Node(>=6.x)",
-  "version": "2.5.4",
+  "version": "2.5.4-dosordie.1",
   "engines": {
     "node": ">=6"
   },
@@ -38,15 +38,15 @@
       "url": "https://bitbucket.org/timokri/"
     },
     {
-      "name": "Cédric Trévisan",
+      "name": "C\u00e9dric Tr\u00e9visan",
       "url": "https://bitbucket.org/ctrevisan/"
     },
     {
-      "name": "Timo Müller",
+      "name": "Timo M\u00fcller",
       "email": "timomueller1993@gmail.com"
     },
     {
-      "name": "Patrik Åkerfeldt"
+      "name": "Patrik \u00c5kerfeldt"
     },
     {
       "name": "Johannes Ritter"
@@ -68,7 +68,7 @@
       "name": "Christian Duernberger"
     },
     {
-      "name": "Peter Körner",
+      "name": "Peter K\u00f6rner",
       "email": "pkoerner@seibert-media.net"
     },
     {

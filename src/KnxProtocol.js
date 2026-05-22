@@ -574,7 +574,9 @@ KnxProtocol.define('KNXNetHeader', {
             this.total_length
           );
         switch (hdr.service_type) {
-          //        case SERVICE_TYPE.SEARCH_REQUEST:
+          case KnxConstants.SERVICE_TYPE.SEARCH_REQUEST: {
+            break;
+          }
           case KnxConstants.SERVICE_TYPE.CONNECT_REQUEST: {
             this.HPAI('hpai').HPAI('tunn').CRI('cri');
             break;
@@ -605,10 +607,19 @@ KnxProtocol.define('KNXNetHeader', {
             this.CEMI('cemi');
             break;
           default: {
+            const serviceTypeText = KnxConstants.keyText(
+              'SERVICE_TYPE',
+              hdr.service_type
+            );
+
+            if (hdr.service_type === undefined || serviceTypeText === undefined) {
+              break;
+            }
+
             if (KnxProtocol.debug) {
               KnxLog.get().warn(
                 'read KNXNetHeader: unhandled serviceType = %s',
-                KnxConstants.keyText('SERVICE_TYPE', hdr.service_type)
+                serviceTypeText
               );
             }
           }
