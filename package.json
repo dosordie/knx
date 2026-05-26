@@ -8,7 +8,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/ekarak/knx.git"
+    "url": "https://github.com/dosordie/knx.git"
   },
   "scripts": {
     "test": "multi-tape test/*/test-*.js"
@@ -38,15 +38,15 @@
       "url": "https://bitbucket.org/timokri/"
     },
     {
-      "name": "C\u00e9dric Tr\u00e9visan",
+      "name": "Cédric Trévisan",
       "url": "https://bitbucket.org/ctrevisan/"
     },
     {
-      "name": "Timo M\u00fcller",
+      "name": "Timo Müller",
       "email": "timomueller1993@gmail.com"
     },
     {
-      "name": "Patrik \u00c5kerfeldt"
+      "name": "Patrik Åkerfeldt"
     },
     {
       "name": "Johannes Ritter"
@@ -68,7 +68,7 @@
       "name": "Christian Duernberger"
     },
     {
-      "name": "Peter K\u00f6rner",
+      "name": "Peter Körner",
       "email": "pkoerner@seibert-media.net"
     },
     {
@@ -98,5 +98,9 @@
   "devDependencies": {
     "multi-tape": "^1.2.1",
     "tape": "^4.10.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/dosordie/knx/issues"
+  },
+  "homepage": "https://github.com/dosordie/knx"
 }
